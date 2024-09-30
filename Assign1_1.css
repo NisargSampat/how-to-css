@@ -1,0 +1,52 @@
+
+.container {
+    width: 500px; 
+    margin: 100px auto;
+    font-family: Arial, sans-serif; 
+  }
+  
+  .business-development {
+    background-color: rgb(83, 230, 140); 
+    padding: 30px; 
+    border-radius: 25px;
+    box-sizing: border-box;  
+    width: 100%; 
+    height: 350px; 
+    text-align: left;
+    display: flex; /* Use flexbox to align items */
+    flex-direction: column; /* Arrange children in a column */
+    justify-content: center; /* Center items vertically */
+    align-items: flex-start; /* Center items horizontally */
+  }
+  
+  .business-development h2 {
+    font-size: 30px; 
+    font-weight: bold; 
+    margin-top: 0; 
+    line-height: 1.2;
+  }
+
+  .business-development h2 span {
+    display: block; 
+}
+  
+  .business-development p {
+    font-size: 16px; 
+    margin-bottom: 20px; 
+    
+  }
+  
+  .share-ideas {
+    background-color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 15px; 
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-weight: bold;
+    border-radius: 25px;
+  }
+  
+  .share-ideas:hover {
+    background-color: lightgray; 
+  }
+
