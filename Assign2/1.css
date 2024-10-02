@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.card {
+    border-radius: 20px;
+    width: 350px;
+    margin: 10px;
+    border: 1px solid lightgray;
+    padding: 6px 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 14px;
+}
+
+.promoted {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 2px 5px;
+    border-radius: 3px;
+    top: 10px;
+    left: 10px;
+    font-size: 12px;
+}
+
+.discount {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.time {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.content {
+    padding: 15px;
+}
+
+.restaurant-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.cuisine {
+    color: gray;
+    margin: 5px 0;
+}
+
+.safety {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    border-top: 1px solid lightgray;
+}
+
+.safety img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.safety-text {
+    font-size: 14px;
+    color: gray;
+}
